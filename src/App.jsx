@@ -18,6 +18,29 @@ const App = () => {
   const [theme, setTheme] = useState("dark");
   const toggleTheme = () => setTheme(theme === "dark" ? "light" : "dark");
 
+  // PWA install prompt logic
+  const [deferredPrompt, setDeferredPrompt] = useState(null);
+  const [showInstallBtn, setShowInstallBtn] = useState(false);
+
+  React.useEffect(() => {
+    const handler = (e) => {
+      e.preventDefault();
+      setDeferredPrompt(e);
+      setShowInstallBtn(true);
+    };
+    window.addEventListener('beforeinstallprompt', handler);
+    return () => window.removeEventListener('beforeinstallprompt', handler);
+  }, []);
+
+  const handleInstallClick = async () => {
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      const { outcome } = await deferredPrompt.userChoice;
+      setDeferredPrompt(null);
+      setShowInstallBtn(false);
+    }
+  };
+
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className={theme === "dark" ? "bg-[#050414]" : "bg-[#f7f7fa]"}>
@@ -36,6 +59,15 @@ const App = () => {
           <Samrat />
           <Footer />
         </div>
+        {showInstallBtn && (
+          <button
+            onClick={handleInstallClick}
+            className="fixed bottom-6 left-6 z-50 px-4 py-2 rounded-full font-semibold bg-gradient-to-r from-purple-500 to-pink-400 text-white shadow-lg hover:scale-105 transition-all duration-300"
+            style={{ boxShadow: '0 0 16px #8245ec80, 0 0 32px #ff00cc40' }}
+          >
+            Download App
+          </button>
+        )}
       </div>
     </ThemeContext.Provider>
   );

@@ -5,6 +5,28 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import profileImage from "../../assets/profile2.jpg";
 
 const Navbar = () => {
+  // PWA install prompt logic
+  const [deferredPrompt, setDeferredPrompt] = useState(null);
+  const [showInstallBtn, setShowInstallBtn] = useState(false);
+
+  useEffect(() => {
+    const handler = (e) => {
+      e.preventDefault();
+      setDeferredPrompt(e);
+      setShowInstallBtn(true);
+    };
+    window.addEventListener('beforeinstallprompt', handler);
+    return () => window.removeEventListener('beforeinstallprompt', handler);
+  }, []);
+
+  const handleInstallClick = async () => {
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      const { outcome } = await deferredPrompt.userChoice;
+      setDeferredPrompt(null);
+      setShowInstallBtn(false);
+    }
+  };
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,8 +59,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 w-full z-50 flex justify-center items-center px-1 py-0">
-      <div className={`w-full max-w-5xl flex items-center justify-between ${theme === "dark" ? "bg-[#18132a]/80" : "bg-white/80"} backdrop-blur-lg rounded-2xl shadow-2xl border border-gradient-to-r from-[#8245ec] via-pink-500 to-[#18132a] px-2 py-0 mt-2 mx-auto transition-all duration-300 ${isScrolled ? 'shadow-purple-500/40' : ''}`}>
+  <nav className="fixed top-0 w-full z-50 flex justify-center items-center px-1 py-0">
+  <div className={`w-full max-w-5xl flex items-center justify-between ${theme === "dark" ? "bg-[#18132a]/80" : "bg-white/80"} backdrop-blur-lg rounded-2xl shadow-2xl border border-gradient-to-r from-[#8245ec] via-pink-500 to-[#18132a] px-2 py-0 mt-2 mx-auto transition-all duration-300 ${isScrolled ? 'shadow-purple-500/40' : ''}`}>
         {/* Profile Image & Logo */}
         <div className="flex items-center gap-4">
             <div className="relative w-12 h-12 flex items-center justify-center">
@@ -69,13 +91,24 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Theme Toggle Button */}
-        <button
-          onClick={toggleTheme}
-          className={`ml-2 px-2 py-0.5 rounded-md font-bold border border-[#8245ec40] shadow-sm transition-all duration-300 text-sm ${theme === "dark" ? "bg-[#18132a] text-white hover:bg-[#8245ec]" : "bg-white text-[#8245ec] hover:bg-[#8245ec] hover:text-white"}`}
-        >
-          {theme === "dark" ? "🌙" : "☀️"}
-        </button>
+        {/* Theme Toggle Button & PWA Install Button */}
+        <div className="flex items-center gap-2">
+          <button
+            onClick={toggleTheme}
+            className={`px-2 py-0.5 rounded-md font-bold border border-[#8245ec40] shadow-sm transition-all duration-300 text-sm ${theme === "dark" ? "bg-[#18132a] text-white hover:bg-[#8245ec]" : "bg-white text-[#8245ec] hover:bg-[#8245ec] hover:text-white"}`}
+          >
+            {theme === "dark" ? "🌙" : "☀️"}
+          </button>
+          {showInstallBtn && (
+            <button
+              onClick={handleInstallClick}
+              className="px-3 py-1 rounded-full font-semibold bg-gradient-to-r from-purple-500 to-pink-400 text-white shadow-lg hover:scale-105 transition-all duration-300"
+              style={{ boxShadow: '0 0 16px #8245ec80, 0 0 32px #ff00cc40' }}
+            >
+              Download App
+            </button>
+          )}
+        </div>
 
         {/* Social Icons */}
         <div className="hidden md:flex gap-3">

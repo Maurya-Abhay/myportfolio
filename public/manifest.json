@@ -3,14 +3,14 @@
   "name": "Abhay Maurya Portfolio",
   "icons": [
     {
-  "src": "icon-192.png",
+      "src": "vite.svg",
       "sizes": "192x192",
-      "type": "image/jpeg"
+      "type": "image/svg+xml"
     },
     {
-  "src": "icon-512.png",
+      "src": "vite.svg",
       "sizes": "512x512",
-      "type": "image/jpeg"
+      "type": "image/svg+xml"
     }
   ],
   "start_url": ".",

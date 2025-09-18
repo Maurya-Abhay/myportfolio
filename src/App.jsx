@@ -1,6 +1,7 @@
 import React, { useState, createContext } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import Navbar from "./components/Navbar/Navbar";
+import Samrat from "./components/Samrat";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
@@ -32,6 +33,7 @@ const App = () => {
           <Education />
           <Certificate />
           <Contact />
+          <Samrat />
           <Footer />
         </div>
       </div>

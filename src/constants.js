@@ -157,50 +157,52 @@ export const SkillsInfo = [
     },
   ];
   
-  export const certificates = [
-    {
-      id: 1,
-      title: "React Developer Certificate",
-      issuer: "Coursera",
-      date: "Jan 2024",
-      img: certificate1,
-    },
-    {
-      id: 1,
-      title: "React Developer Certificate",
-      issuer: "Coursera",
-      date: "Jan 2024",
-      img: certificate2,
-    },
-    {
-      id: 1,
-      title: "React Developer Certificate",
-      issuer: "Coursera",
-      date: "Jan 2024",
-      img: certificate3,
-    },
-    {
-      id: 1,
-      title: "React Developer Certificate",
-      issuer: "Coursera",
-      date: "Jan 2024",
-      img: certificate4,
-    },
-    {
-      id: 1,
-      title: "React Developer Certificate",
-      issuer: "Coursera",
-      date: "Jan 2024",
-      img: certificate5,
-    },
-    {
-      id: 1,
-      title: "React Developer Certificate",
-      issuer: "Coursera",
-      date: "Jan 2024",
-      img: certificate6,
-    },
-  ];
+export const certificates = [
+  {
+    id: 3,
+    title: "Web Development",
+    issuer: "Coding Blocks",
+    date: "Mar 2024",
+    img: certificate4,
+  },
+  {
+    id: 2,
+    title: "Project Completion",
+    issuer: "St. Andrews Institute of Technology & Management",
+    date: "Feb 2024",
+    img: certificate3,
+  },
+  {
+    id: 1,
+    title: "Internship Certificate",
+    issuer: "IBM",
+    date: "Jan 2024",
+    img: certificate1,
+  },
+  {
+    id: 4,
+    title: "HTML & CSS",
+    issuer: "Coding Blocks",
+    date: "Apr 2024",
+    img: certificate5,
+  },
+  {
+    id: 5,
+    title: "DSA Using C++",
+    issuer: "Coding Blocks",
+    date: "May 2024",
+    img: certificate6,
+  },
+  
+  
+  {
+    id: 0,
+    title: "Internship Certificate",
+    issuer: "IBM",
+    date: "Jan 2024",
+    img: certificate2,
+  },
+];
 
   export const projects = [
     {

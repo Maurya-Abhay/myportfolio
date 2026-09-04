@@ -1,0 +1,22 @@
+{
+  "education": [
+    {
+      "institution": "St. Andrews Institute of Technology and Management",
+      "program": "B.Tech — Ongoing",
+      "period": "2023 — 2027",
+      "description": "Pursuing B.Tech under Maharshi Dayanand University (MDU). Currently in the 7th semester with an approximate CGPA of 7.5."
+    },
+    {
+      "institution": "R.N. Inter College",
+      "program": "Class 12 — PCM with Biology",
+      "period": "2021 — 2023",
+      "description": "Completed Class 12 from Bihar Board in 2023 with 64%, studying Physics, Chemistry, Mathematics and Biology."
+    },
+    {
+      "institution": "R.N. Inter College",
+      "program": "Class 10 — Bihar Board",
+      "period": "2020 — 2021",
+      "description": "Completed Class 10 from Bihar Board in 2021 with 66%."
+    }
+  ]
+}

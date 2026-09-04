@@ -1,0 +1,388 @@
+{
+  "projects": [
+    {
+      "id": "portfolio-os",
+      "title": "Portfolio OS — Personal Developer Operating System",
+      "shortDescription": "A unified developer platform combining a public portfolio with private study, testing, finance and personal management tools.",
+      "description": "Portfolio OS is a full-stack personal operating system designed around both professional presentation and everyday developer productivity. The public side works as a polished portfolio, while the private side brings study management, knowledge testing, finance tracking and portfolio administration into one platform.",
+      "image": "",
+      "year": "",
+      "status": "Live",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "Authentication"
+      ],
+      "features": [
+        "Professional developer portfolio",
+        "Full Stack, DSA and AI study tracks",
+        "Topic progress tracking",
+        "Personal study notes",
+        "Learning targets",
+        "Knowledge tests and attempt history",
+        "Income and expense management",
+        "Budgets and finance analytics",
+        "Portfolio content management",
+        "Server-side authorization"
+      ],
+      "challenges": [
+        "Designing multiple product areas inside one consistent system",
+        "Keeping private data secure and properly authorized",
+        "Structuring study, testing and finance workflows without making the interface overwhelming"
+      ],
+      "learnings": [
+        "Designing large full-stack applications as modular systems",
+        "Working with relational data through Prisma and PostgreSQL",
+        "Building authenticated and authorization-aware application flows",
+        "Creating reusable structures for dashboards and management tools"
+      ],
+      "liveUrl": "https://abhay-portfolio-os.vercel.app/",
+      "githubUrl": "https://github.com/Maurya-Abhay/portfolio-os"
+    },
+    {
+      "id": "syntvex",
+      "title": "Syntvex — Digital Growth & Technology Platform",
+      "shortDescription": "A technology platform focused on helping businesses strengthen their digital presence and build scalable growth systems.",
+      "description": "Syntvex is a digital technology platform built around practical business growth. Its focus is on helping businesses establish a stronger digital presence, automate useful workflows and build technology systems that can evolve as the business grows.",
+      "image": "",
+      "year": "",
+      "status": "Live",
+      "stack": [
+        "Web Development",
+        "Automation",
+        "Scalable Architecture"
+      ],
+      "features": [
+        "Digital presence solutions",
+        "Growth-focused technology workflows",
+        "Automation-oriented product approach",
+        "Scalable system planning",
+        "Business-focused digital services"
+      ],
+      "challenges": [
+        "Communicating technical value in a business-friendly way",
+        "Balancing a professional brand experience with clear product information",
+        "Keeping the platform flexible for different business requirements"
+      ],
+      "learnings": [
+        "Designing technology products around business problems",
+        "Communicating technical services through clear product positioning",
+        "Thinking about scalability from the early product stage"
+      ],
+      "liveUrl": "https://www.syntvex.tech/",
+      "githubUrl": "https://github.com/Maurya-Abhay/startup-frontend"
+    },
+    {
+      "id": "krishi",
+      "title": "Krishi — Local Services Discovery Platform",
+      "shortDescription": "A local-services platform for discovering nearby stores, doctors, salons, transport and educational services.",
+      "description": "Krishi is a local-services discovery platform built to make nearby services easier to search and access. The project follows a multi-application architecture with dedicated server, web and mobile layers backed by a shared PostgreSQL data source.",
+      "image": "",
+      "year": "",
+      "status": "Live",
+      "stack": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "Prisma",
+        "JavaScript",
+        "React Native",
+        "Expo",
+        "Supabase PostgreSQL"
+      ],
+      "features": [
+        "Local service discovery",
+        "Search across multiple service categories",
+        "Web application",
+        "React Native mobile application",
+        "Dedicated backend architecture",
+        "Centralized PostgreSQL data source",
+        "Fast local search experience"
+      ],
+      "challenges": [
+        "Keeping web, mobile and backend layers aligned",
+        "Designing a consistent experience across different application surfaces",
+        "Handling local search data efficiently"
+      ],
+      "learnings": [
+        "Working with multi-application project architecture",
+        "Separating presentation, business logic and data access layers",
+        "Building products that share one backend across web and mobile clients"
+      ],
+      "liveUrl": "https://krishi-app-ashy.vercel.app/",
+      "githubUrl": "https://github.com/Maurya-Abhay/krishi-app"
+    },
+    {
+      "id": "amraj",
+      "title": "Amraj — Local Services Search Platform",
+      "shortDescription": "A fast local search platform for finding useful services by city or pincode.",
+      "description": "Amraj is a focused local-services search platform built around quick discovery. Users can search for doctors, stores, salons, transport and educational services by city or pincode, with an emphasis on finding useful information with minimal friction.",
+      "image": "",
+      "year": "",
+      "status": "Live",
+      "stack": [
+        "JavaScript",
+        "Local Search",
+        "Indexed Data",
+        "Web Development"
+      ],
+      "features": [
+        "City-based service search",
+        "Pincode-based search",
+        "Doctors and medical services",
+        "Stores and local businesses",
+        "Salon discovery",
+        "Transport services",
+        "Educational service discovery",
+        "Fast query-focused experience"
+      ],
+      "challenges": [
+        "Keeping search results relevant and easy to scan",
+        "Structuring local data for fast discovery",
+        "Designing a simple experience around information-heavy results"
+      ],
+      "learnings": [
+        "Designing search-first user experiences",
+        "Working with location-oriented datasets",
+        "Reducing unnecessary interaction steps in discovery flows"
+      ],
+      "liveUrl": "https://amraj.kesug.com/frontend/?i=1",
+      "githubUrl": "https://github.com/Maurya-Abhay/amraj"
+    },
+    {
+      "id": "plusai",
+      "title": "PlusAI — AI Chat Assistant",
+      "shortDescription": "An AI chat application connecting users with an AI model through an API-driven conversational interface.",
+      "description": "PlusAI is an AI chat application focused on providing a clean conversational experience through external AI model integration. The project handles user messages, API communication and AI-generated responses through a simple chat-oriented interface.",
+      "image": "",
+      "year": "",
+      "status": "Live",
+      "stack": [
+        "React",
+        "JavaScript",
+        "AI APIs",
+        "REST API",
+        "Chat UI"
+      ],
+      "features": [
+        "AI-powered conversations",
+        "API-based model integration",
+        "Chat-style interface",
+        "Request and response handling",
+        "Conversation-focused user experience"
+      ],
+      "challenges": [
+        "Designing a smooth chat interaction",
+        "Handling asynchronous AI API requests",
+        "Keeping the interface simple while supporting dynamic responses"
+      ],
+      "learnings": [
+        "Integrating external AI services into web applications",
+        "Working with asynchronous API workflows",
+        "Designing interfaces around conversational interactions"
+      ],
+      "liveUrl": "https://plusai.vercel.app/",
+      "githubUrl": "https://github.com/Maurya-Abhay/plus-ai-frontend"
+    },
+    {
+      "id": "jp-construction",
+      "title": "JP Construction — Construction Management Software",
+      "shortDescription": "A construction management system for workers, attendance, payments, files and administrative operations.",
+      "description": "JP Construction is a management system designed to simplify day-to-day construction administration. It brings worker management, attendance, payments, reporting, file handling and security controls into a single application.",
+      "image": "",
+      "year": "",
+      "status": "Source Only",
+      "stack": [
+        "PHP",
+        "MySQL",
+        "Apache",
+        "XAMPP",
+        "JavaScript"
+      ],
+      "features": [
+        "Admin management",
+        "Worker management",
+        "Attendance tracking",
+        "Payment management",
+        "UPI integration",
+        "PDF report generation",
+        "Secure file uploads",
+        "User management",
+        "Audit logging",
+        "Brute-force protection",
+        "CSRF protection",
+        "SQL injection protection",
+        "XSS protection"
+      ],
+      "challenges": [
+        "Protecting administrative and employee data",
+        "Handling file uploads and generated reports securely",
+        "Combining operational workflows with security controls"
+      ],
+      "learnings": [
+        "Building business-oriented management systems",
+        "Applying application security practices",
+        "Working with PHP and MySQL in a traditional server environment"
+      ],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Maurya-Abhay/samratconstruction"
+    },
+    {
+      "id": "outbreaksense-ai",
+      "title": "OutbreakSense AI — AI-Powered Disease Risk Prediction Platform",
+      "shortDescription": "An AI-powered platform for location-based disease risk prediction, citizen reporting, realtime alerts and administrative analytics.",
+      "description": "OutbreakSense AI combines machine-learning based risk prediction with realtime reporting and location-based visualization. The platform is designed for both citizens and administrators, providing risk insights, reporting workflows, alerts, analytics and operational dashboards.",
+      "image": "",
+      "year": "",
+      "status": "Live",
+      "stack": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Socket.IO",
+        "JWT",
+        "Python",
+        "FastAPI",
+        "scikit-learn",
+        "pandas",
+        "NumPy",
+        "Leaflet",
+        "Recharts",
+        "React Native",
+        "Expo"
+      ],
+      "features": [
+        "Location-based disease risk prediction",
+        "GPS-enabled disease reporting",
+        "Risk heatmap visualization",
+        "Weekly risk trends",
+        "Local forecast views",
+        "Realtime alerts",
+        "Realtime report stream",
+        "Admin analytics dashboard",
+        "Report verification",
+        "CSV and PDF exports",
+        "Mobile support",
+        "Offline-friendly cached fallback",
+        "Batch prediction support",
+        "Risk score and risk level output",
+        "Top prediction factors"
+      ],
+      "challenges": [
+        "Connecting machine-learning services with a realtime application",
+        "Handling location-based data and visualizing it clearly",
+        "Designing reliable fallback behavior when AI services are unavailable",
+        "Keeping citizen and admin workflows understandable within one product"
+      ],
+      "learnings": [
+        "Integrating Python machine-learning services with a JavaScript backend",
+        "Building realtime applications with Socket.IO",
+        "Working with maps, geospatial visualization and data-heavy dashboards",
+        "Designing systems with fallback and resilience in mind"
+      ],
+      "liveUrl": "https://outbreaksenseai.vercel.app/",
+      "githubUrl": "https://github.com/Maurya-Abhay/OutbreakSenseAI"
+    },
+    {
+      "id": "humansafety",
+      "title": "HumanSafety — Emergency & Community Safety Platform",
+      "shortDescription": "A safety platform connecting people with emergency services, nearby support and location-based assistance.",
+      "description": "HumanSafety is a safety-focused mobile platform designed to help people access emergency support, discover nearby services and share important location information with trusted users and service providers.",
+      "image": "",
+      "year": "",
+      "status": "Source Only",
+      "stack": [
+        "Flutter",
+        "Node.js",
+        "Python",
+        "Mobile Development",
+        "Location Services"
+      ],
+      "features": [
+        "Emergency alerts",
+        "Nearby police discovery",
+        "Location sharing",
+        "Family and parent location sharing",
+        "Nearby hospital discovery",
+        "Emergency support access",
+        "Multiple user roles",
+        "Role-based service access",
+        "Support for emergency-related coordination"
+      ],
+      "challenges": [
+        "Designing safety-critical user flows that remain easy to access",
+        "Working with multiple service-provider roles",
+        "Handling location-related features across different user journeys"
+      ],
+      "learnings": [
+        "Designing mobile applications around real-world workflows",
+        "Working with location-aware product features",
+        "Thinking about role-based systems from a user perspective"
+      ],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Maurya-Abhay/HumanSafety"
+    },
+    {
+      "id": "guddoo-general-store",
+      "title": "Guddoo General Store — Local E-Commerce & Village Services Platform",
+      "shortDescription": "A complete local e-commerce platform with online ordering, UPI payments, credit tracking and digital village services.",
+      "description": "Guddoo General Store is a local-commerce platform built for general stores and village communities. It combines product discovery, online ordering, digital payments and store management with practical village services inside one system.",
+      "image": "",
+      "year": "",
+      "status": "Live",
+      "stack": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Supabase PostgreSQL",
+        "Supabase Auth",
+        "JavaScript",
+        "PWA"
+      ],
+      "features": [
+        "Product browsing and search",
+        "Category-based discovery",
+        "Shopping cart",
+        "Quantity management",
+        "Online order placement",
+        "UPI payment support",
+        "Order tracking",
+        "Customer profile and addresses",
+        "Light and dark mode",
+        "Hindi and English support",
+        "PWA installation",
+        "Offline-friendly caching",
+        "Sales and revenue dashboard",
+        "Product management",
+        "Category management",
+        "Order processing",
+        "UPI payment verification",
+        "Customer management",
+        "Bakiya and credit tracking",
+        "Village service requests",
+        "Store settings and UPI configuration"
+      ],
+      "challenges": [
+        "Combining e-commerce and local service workflows in one platform",
+        "Designing the system for both customers and store administrators",
+        "Supporting payments, credit tracking and order states without making the experience complex",
+        "Making the platform practical for mobile-first local usage"
+      ],
+      "learnings": [
+        "Building complete end-to-end commerce workflows",
+        "Working with Supabase authentication and PostgreSQL",
+        "Designing role-based admin and customer experiences",
+        "Building PWA-oriented web applications for mobile usage"
+      ],
+      "liveUrl": "https://guddoostore.vercel.app/",
+      "githubUrl": "https://github.com/Maurya-Abhay/guddoo-general-store"
+    }
+  ]
+}

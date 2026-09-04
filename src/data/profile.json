@@ -1,0 +1,20 @@
+{
+  "name": "Abhay Prasad",
+  "initials": "ABHAY",
+  "role": "Full Stack Developer",
+  "headline": "I build products that are fast, reliable & scalable.",
+  "summary": "Full Stack Developer with a focus on creating exceptional digital experiences using modern technologies.",
+  "about": "I enjoy turning complex problems into simple, beautiful and intuitive solutions. My focus is on writing clean, efficient code and building great user experiences.",
+  "email": "abhayprasad.maurya@gmail.com",
+  "location": "India",
+  "availability": "Available for new opportunities",
+  "image": "/Abhay_photo.webp",
+  "resumeUrl": "https://drive.google.com/file/d/1G6pPYL-wMnGp6K3BJzn4SOmFdXYjacBH/edit",
+  "githubUrl": "https://github.com/Maurya-Abhay/",
+  "linkedinUrl": "https://www.linkedin.com/in/abhay-prasad-84b46a297",
+  "stats": [
+    { "label": "Experience", "value": "0+ Years" },
+    { "label": "Focus", "value": "Full Stack" },
+    { "label": "Based in", "value": "India" }
+  ]
+}

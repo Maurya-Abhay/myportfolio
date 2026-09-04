@@ -1,0 +1,76 @@
+{
+  "groups": [
+    {
+      "title": "Frontend",
+      "items": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Responsive Design",
+        "Accessibility",
+        "UI Development"
+      ]
+    },
+    {
+      "title": "Backend",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "API Integration",
+        "Authentication",
+        "Authorization",
+        "Server-side Development"
+      ]
+    },
+    {
+      "title": "Database",
+      "items": [
+        "MongoDB",
+        "PostgreSQL",
+        "Firebase",
+        "Database Design",
+        "CRUD Operations"
+      ]
+    },
+    {
+      "title": "Programming",
+      "items": [
+        "JavaScript",
+        "TypeScript",
+        "Object-Oriented Programming",
+        "Data Structures",
+        "Problem Solving",
+        "Async Programming"
+      ]
+    },
+    {
+      "title": "Tools",
+      "items": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Postman",
+        "npm",
+        "Docker",
+        "Linux",
+        "AWS"
+      ]
+    },
+    {
+      "title": "Development",
+      "items": [
+        "Version Control",
+        "Debugging",
+        "Performance Optimization",
+        "Responsive Web Development",
+        "Component-based Architecture",
+        "Deployment"
+      ]
+    }
+  ]
+}
